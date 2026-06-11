@@ -64,12 +64,12 @@ btn2.addEventListener('click',
         input.value = "";
 
         //４つ目のデータを追加しようとすると一番古いデータが消える
-        /*
+        
         if(dataCount>3){
             const oldData = table.rows[1];
             oldData.remove();
         };
-        */
+        
 
         //削除ボタンを押すとデータが消える
         newBtn.addEventListener('click',
